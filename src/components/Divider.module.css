@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    border: 1px solid #2a9cd6;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    transition: 0.2s ease;
+    color: #2a9cd6;
+    
+}
+.button:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #2a9cd6;
+}
+.titleL{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 21px;
+    color: #4c5c84;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    position: relative;
+    padding-right: 12px;
+}
+.titleL::after{
+    content:"";
+     position: absolute;
+    top: 13px;
+    right: -1px;
+    width: 6px;
+    height: 11px;
+    background: #2a9cd6; 
+    border-radius: 10px;
+    transform: rotate(12deg);
+}
+.titleD{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 21px;
+    color: rgb(229, 228, 228);
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    position: relative;
+    padding-right: 12px;
+}
+.titleD::after{
+    content:"";
+     position: absolute;
+    top: 13px;
+    right: -1px;
+    width: 6px;
+    height: 11px;
+    background: #2a9cd6; 
+    border-radius: 10px;
+    transform: rotate(12deg);
+}
